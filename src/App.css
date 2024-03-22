@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+.card{
+  margin-top: 1rem ;
+  padding: auto;
+  background-color: #2d2525;
+  max-width: 50%;
+  border: .5px solid black;
+  text-align: center;
+  transition:  box-shadow .3s;
+  
+}
+
+.card:hover{
+ box-shadow: rgba(222, 129, 129, 0.4) 5px 5px, rgba(222, 129, 129, 0.3) 10px 10px, rgba(222, 129, 129, 0.2) 15px 15px, rgba(222, 129, 129, 0.1) 20px 20px, rgba(222, 129, 129, 0.05) 25px 25px;
+}
+hr{
+  border: 1px solid rgb(222, 129, 129);
+
+}
